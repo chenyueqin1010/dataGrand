@@ -17,6 +17,11 @@ a:focus{
 .top .navbar-brand img{
 	width:50%;
 }
+@media only screen and (max-width: 380px) {
+	.top .navbar-brand{
+		margin-top:-64px;
+	}
+}
 .navbar-nav li a{
 	color:white;
 	font-size:16px;
