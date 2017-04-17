@@ -1,0 +1,300 @@
+
+#carousel-example-generic img{
+	height:583px;
+}
+#carousel-example-generic .carousel-caption{
+	position: absolute;
+	top:28%;
+	margin-left:-93px;
+	text-align: left;
+}
+#carousel-example-generic .carousel-caption h2{
+	font-size: 40px;
+}
+#carousel-example-generic .carousel-caption p{
+	margin:30px 0;
+	margin-bottom: 45px;
+	font-size:16px;
+}
+#carousel-example-generic .carousel-caption p a{
+	padding:12px 48px;
+	border:1px solid white;
+	color:white;
+	text-shadow: none;
+}
+#carousel-example-generic .carousel-caption p a:hover{
+	background-color: white;
+	color:blue;
+}
+@media only screen and (max-width: 768px) {
+	#carousel-example-generic img{
+		height:291px;
+	}
+	#carousel-example-generic .carousel-caption{
+		margin-left:20px;
+		text-align: center;
+	}
+	#carousel-example-generic .carousel-caption p:nth-of-type(2){
+		display: none;
+	}
+	#carousel-example-generic .carousel-caption h2{
+		font-size: 20px;
+	}
+	#carousel-example-generic .carousel-caption p{
+		font-size: 12px;
+	}
+}
+.carousel-indicators{
+	z-index: 1;
+}
+.quick-action .img{
+	width:63px;
+}
+.quick-action img{
+	width:80%;
+	position: relative;
+	top:10px;
+}
+
+.quick-action .col-sm-3{
+	
+
+}
+.quick-action .col-sm-3 a{
+	display: inline-block;
+	padding:10px;
+	padding-right:20px;
+	margin:20px 0;
+	border:1px solid #F6F6F6;
+	color:#666666;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.quick-action{
+		margin:10px 0;
+	}
+	.quick-action .col-sm-3 a{
+		width:100%;
+		margin:0;
+		margin-bottom:-7px;
+	}
+}
+@media only screen and (max-width: 320px){
+	.quick-action{
+		display: none;
+	}
+}
+.products{
+	padding:40px 0;
+	background-color: #F6F6F6;
+}
+.products .container>p{
+	font-size:16px;
+}
+@media only screen and (max-width: 640px) {
+	.products .container>h2{
+		font-size: 20px;
+	}
+	.products .container>p{
+		font-size:12px;
+	}
+}
+
+.product{
+	margin-top:60px;
+}
+.products .product .product-item ul{
+	list-style: none;
+	background-color: white;
+	line-height: 3.6em;
+	height: 254px;
+	text-shadow:1px 1px 1px darkgrey;
+}
+.products .product .product-item ul li a{
+	line-height: 2em;
+	color:#88C4FF;
+	display: none;
+	padding:0 15px;
+	border:1px solid #88C4FF;
+}
+.products .product .product-item h3{
+	font-size:18px;
+	margin-bottom:30px;
+}
+.products .product .product-item p{
+	display: none;
+}
+.products .product .product-item{
+	float: left;
+	width:206px;
+	height: 400px;
+	background-color: #F8F8F8;
+	border:1px solid #EBEBEB;
+	text-align: center;
+}
+.products .product-item hr{
+	display: none;
+}
+.products .product-item img{
+	margin-top:20px;
+	height:55px;
+	display: inline;
+}
+/*hover*/
+.products .product .product-item.active{
+	width:310px;
+	height:430px;
+	padding:10px;
+}
+.products .product .product-item.active h3{
+	text-align: center;
+	font-size:18px;
+	color:white;
+	margin-bottom:10px;
+}
+.products .product .product-item.active{
+	position: relative;
+	top:-15px;
+	background-color:#1976D2;
+}
+.products .product-item.active>p{
+	color:#88C4FF;
+	font-size:14px;
+	padding:10px;
+}
+.products .product-item.active hr{
+	display:block;
+	margin-bottom:0;
+	opacity: 0.4;
+	border-color:#88C4FF;
+	width:107%;
+	position:relative;
+	left:-10px;
+}
+.products .product-item.active ul{
+	text-align: left;
+	width:107%;
+	margin-left:-10px;
+	background-color:#1976D2;
+}
+.products .product-item.active ul li{
+	padding:0 20px;
+	color:white;
+}
+.products .product-item.active ul li a{
+	line-height: 2em;
+	color:#88C4FF;
+	display: inline-block;
+	margin-left:117px;
+	padding:0 15px;
+	border:1px solid #88C4FF;
+}
+.products .product-item.active img{
+	display: none;
+}
+.products .product .product-item.active p{
+	display: block;
+	text-align: left;
+}
+.small-show ul a li{
+	padding:20px 0;
+	border-bottom:1px solid #EBEBEB;
+}
+.small-show ul a li img{
+	padding:0 10px;
+	height:32px;
+}
+.small-show ul{
+	border:1px solid #EBEBEB;
+	background-color: white;
+}
+.solution .hidden-xs .wrapper{
+	position: relative;
+	width:1180px;
+	height:425px;
+	overflow: hidden;
+}
+.solution .hidden-xs .wrapper ul{
+	width:1770px;
+	height:425px;
+	position: relative;
+	transition: all 0.5s;
+}
+.solution .hidden-xs .wrapper ul li{
+	width:295px;
+	height: 425px;
+	float: right;
+}
+.solution .hidden-xs .wrapper ul li:nth-last-of-type(1){
+	background: url(../images/case-bg1.jpg) center center no-repeat;
+	background-size:cover;
+}
+.solution .hidden-xs .wrapper ul li:nth-last-of-type(2){
+	background: url(../images/case-bg2.jpg) center center no-repeat;
+	background-size:cover;
+}
+.solution .hidden-xs .wrapper ul li:nth-last-of-type(3){
+	background: url(../images/case-bg3.jpg) center center no-repeat;
+	background-size:cover;
+}
+.solution .hidden-xs .wrapper ul li:nth-last-of-type(4){
+	background: url(../images/case-bg4.jpg) center center no-repeat;
+	background-size:cover;
+}
+.solution .hidden-xs .wrapper ul li:nth-last-of-type(5){
+	background: url(../images/case-bg5.jpg) center center no-repeat;
+	background-size:cover;
+}
+.solution .hidden-xs .wrapper ul li:nth-last-of-type(6){
+	background: url(../images/case-bg6.jpg) center center no-repeat;
+	background-size:cover;
+}
+.solution .hidden-xs .wrapper .fa{
+	position: absolute;
+	color:white;
+}
+.solution .hidden-xs .wrapper .fa-angle-left{
+	left:10px;
+	top:50%;
+	transform: translateY(-50%);
+}
+.solution .hidden-xs .wrapper .fa-angle-right{
+	right:10px;
+	top:50%;
+	transform: translateY(-50%);
+}
+.solution .hidden-xs .wrapper ul li>div{
+	text-align: center;
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.4);
+	color:white;
+}
+.solution .hidden-xs .wrapper ul li>div>img{
+	width:50px;
+	display: inline;
+	margin-top:138px;
+}
+.solution .hidden-xs .wrapper ul li>div>h4{
+	margin:30px 0;
+}
+.solution .hidden-xs .wrapper ul li>div.active{
+	background-color: rgba(55,143,229,0.8);
+}
+.solution .hidden-xs .wrapper ul li>div>.hover-show{
+	display: none;
+}
+
+.solution .hidden-xs .wrapper ul li>div>.hover-show p{
+	text-align: justify;
+	margin:0 auto;
+	width:80%;
+	font-size: 14px;
+}
+.solution .hidden-xs .wrapper ul li>div>.hover-show a{
+	display: inline-block;
+	margin-top:20px;
+	padding:5px 25px;
+	color:white;
+	border:1px solid white;
+}
+
