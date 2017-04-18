@@ -1,0 +1,146 @@
+
+.tm-banner{
+	height:498px;
+	background: url(../images/tm-banner.jpg) center center no-repeat;
+	background-size: cover;
+	margin:0;
+	color:white;
+}
+.tm-banner .text-box{
+	margin-top:150px ;
+	margin-left:20px;
+}
+.tm-banner .text-box h3{
+	font-size: 40px;
+}
+.tm-banner .text-box p{
+	font-size:16px;
+}
+.tm-banner .text-box a{
+	display: inline-block;
+	font-size: 16px;
+	color:white;
+	border:1px solid white;
+	padding:8px 40px;
+	margin-top:20px;
+}
+.tm-banner .text-box a:hover{
+	color:blue;
+	background-color: white;
+}
+.tm-product{
+	padding:50px 0;
+	background-color: #F6F6F6;
+}
+.tm-product h2{
+	margin-bottom: 40px;
+}
+.tm-product .col-sm-2{
+	padding:0;
+	border-right:3px solid #F6F6F6;
+}
+.tm-product .thumbnail{
+	border:none;
+	border-radius: 0;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+.tm-product .thumbnail img{
+	height:60px;
+}
+
+.tm-product .thumbnail p{
+	font-size:13px;
+}
+.tm-banner2{
+	height:498px;
+	background: url(../images/tm-07.jpg) center center no-repeat;
+	background-size: cover;
+	margin:0;
+	color:white;
+}
+.tm-banner2 h3{
+	font-size: 30px;
+}
+.tm-banner2 ul{
+	margin-top:20px;
+	font-size: 16px;
+	padding-left:18px;
+	list-style-type: square;
+}
+.tm-banner2 .text-box{
+	margin-top:160px;
+}
+.tm-banner2 img{
+	margin-top:30px;
+}
+.tm-frame{
+	padding-top:80px;
+	padding-bottom: 30px;
+}
+.tm-frame h3{
+	font-size: 30px;
+	text-align: center;
+}
+.tm-frame ul{
+	width:600px;
+	margin:0 auto;
+	margin-top:20px;
+	font-size:16px;
+	line-height: 2em;
+}
+.tm-frame img{
+	margin-top:20px;
+	margin-left:30px;
+	width:90%;
+}
+.tm-banner2.tm-banner3{
+	height:498px;
+	background:#051338;
+	margin:0;
+	color:white;
+	overflow: hidden;
+}
+.tm-banner3 img{
+	width:170%;
+	position: relative;
+	left:-320px;
+}
+.tm-banner3 .text-box{
+	position: relative;
+	z-index: 1;
+}
+.tm-tech{
+
+	text-align: center;
+	padding:50px 0;
+	background-color: #F6F6F6;
+}
+.tm-tech h3{
+	font-size:30px;
+}
+.tm-tech img{
+	margin-top:20px;
+	width:90%;
+}
+.site h3{
+	margin-bottom:20px;
+}
+.site{
+	padding:50px 0;
+	background: url(../images/tm-11.jpg) center center no-repeat;
+	background-size: cover;
+	margin:0;
+	color:white;
+}
+.site a{
+	display: inline-block;
+	margin-top:10px;
+	padding:10px 45px;
+	color:white;
+	border:1px solid white;
+}
+.site a:hover{
+	color:blue;
+	background: white;
+}
