@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>达观数据-首页</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-3.3.7.min.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome-4.2.0.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css" />
+    <!-- IE<=9 H5+CSS3补丁  -->
+    <!--[if lte IE 9]>                         
+	   <script src="js/html5shiv.min.js"></script>
+	   <script src="js/respond.min.js"></script>                      
+	<![endif]-->
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="">
+	<link rel="icon" href="">
+</head>
+<body>
+	<div class="top">
+		<div class="container">
+			<nav class="navbar"> <!--.navbar-fixed-top固定在顶部，且需body { padding-top: 70px; }-->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="fa fa-bars fa-2x"></span>
+			      </button>
+			      <a class="navbar-brand" href="index.html">
+			      	<img src="images/dg-logo-2x.png"/>
+			      </a>
+			    </div>
+			
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="index.html">官网首页<span class="sr-only">(current)</span></a></li>
+			        <li class="dropdown hidden-xs">
+			        	<a href="#1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">产品服务</a>
+				        <ul class="dropdown-menu text-center" aria-labelledby="dLabel">
+				        	<i class="fa fa-caret-up fa-3x"></i>
+						    <li><a href="textmining.html">文本语义理解</a></li>
+						    <li><a href="recommend.html">智能推荐引擎</a></li>
+						    <li><a href="searchengines.html">垂直搜索引擎</a></li>
+						    <li><a href="datamining.html">数据采集挖掘</a></li>
+						    <li><a href="portrayal.html">用户画像</a></li>
+						</ul>			        	
+			        </li>
+			        <li class="dropdown hidden-xs">
+			        	<a href="#1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">解决方案</a>
+				        <ul class="dropdown-menu text-center" aria-labelledby="dLabel">
+				        	<i class="fa fa-caret-up fa-3x"></i>
+						    <li><a href="elebusinesssln.html">电商解决方案</a></li>
+						    <li><a href="mediasln.html">媒体解决方案</a></li>
+						    <li><a href="technology-solutions.html">科技解决方案</a></li>
+						    <li><a href="financial-solutions.html">金融解决方案</a></li>
+						</ul>			        	
+			        </li>
+			        <!--折叠菜单 xs可见-->
+					<li class="panel-group visible-xs-block" id="accordion" role="tablist" aria-multiselectable="true">
+						  <div class="panel">
+								<div class="panel-heading" role="tab" id="headingOne">								 
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								 	<h4 class="panel-title">
+										 产品服务<i class="glyphicon glyphicon-chevron-right pull-right"></i>
+								  	</h4>
+								</a>
+								
+								</div>
+								<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+								  <div class="panel-body">
+								  	<ul>
+									    <li><a href="textmining.html">文本语义理解</a></li>
+									    <li><a href="recommend.html">智能推荐引擎</a></li>
+									    <li><a href="searchengines.html">垂直搜索引擎</a></li>
+									    <li><a href="datamining.html">数据采集挖掘</a></li>
+									    <li><a href="portrayal.html">用户画像</a></li>
+									</ul>	
+								  </div>
+								</div>
+						  </div>
+						  <div class="panel" style="border-top:1px solid #0D3048;">
+								<div class="panel-heading" role="tab" id="headingTwo">								 
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+								 	<h4 class="panel-title">
+										 解决方案<i class="glyphicon glyphicon-chevron-right pull-right"></i>
+								  	</h4>
+								</a>								 
+								</div>
+								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								  <div class="panel-body">
+								  	<ul>
+									    <li><a href="elebusinesssln.html">电商解决方案</a></li>
+									    <li><a href="mediasln.html">媒体解决方案</a></li>
+									    <li><a href="technology-solutions.html">科技解决方案</a></li>
+									    <li><a href="financial-solutions.html">金融解决方案</a></li>
+									</ul>	
+								  </div>
+								</div>
+						  </div>
+					</li>			        
+			        <li><a href="blog.html">企业资讯</a></li>
+			        <li class="dropdown hidden-xs">
+			        	<a href="about.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">关于达观</a>
+				        <ul class="dropdown-menu text-center" aria-labelledby="dLabel">
+				        	<i class="fa fa-caret-up fa-3x"></i>
+						    <li><a href="about.html#description">公司简介</a></li>
+						    <li><a href="about.html#honor">达观事迹</a></li>
+						    <li><a href="about.html#join">加入我们</a></li>
+						</ul>			        	
+			        </li>
+			        <li><a href="about.html" class="visible-xs-block">关于达观</a></li>
+			        <li><a href="doc.html">技术文档</a></li>
+			      </ul>
+			      <ul class="nav navbar-nav navbar-right hidden-xs">
+			      	<li >
+			      		<a href="login.html" class="login-btn">登录</a>
+			      	</li>
+			      	<li >
+			      		<a href="experience.html">申请试用</a>
+			      	</li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			</nav>			
+		</div>	<!--container-->
+	</div> <!--top-->
+	<!--首页轮播图-->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>		
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+		<div class="item active">
+		  <img src="images/banner1.jpg" alt="banner1">
+		  <div class="carousel-caption">
+		    	<h2>遇见数据，遇见未来</h2>
+		    	<p>达观致力于为企业挖掘数据蕴藏的价值，提升企业经营业绩</p>
+		    	<p><a href="#2">了解更多</a></p>
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="images/banner2.jpg" alt="banner2">
+		  <div class="carousel-caption">
+		  		<h2>大数据技术服务专家</h2>
+		  		<p>国际数据挖掘冠军团队为企业提供大数据技术服务</p>
+		  		<p><a href="#2">了解更多</a></p>
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="images/banner3.jpg" alt="banner3">
+		  <div class="carousel-caption">
+		    	<h2>成熟的行业大数据解决方案</h2>
+		    	<p>精准洞察分析不同行业的数据特点，高效解决行业痛点，释放数据价值</p>
+		    	<p><a href="#1">了解更多</a></p>
+		  </div>
+		</div>		    
+	  </div>		
+	</div>	
+	<!--轮播图 end-->
+	<div class="quick-action">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="#1">
+						<div class="img pull-left">
+							<img src="images/quick-icon1.jpg"/>
+						</div>
+						<div class="text pull-left">
+							<h4>新用户注册有礼</h4>
+							<p>新用户注册免费试用半月</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#1">
+						<div class="img pull-left">
+							<img src="images/quick-icon2.jpg"/>
+						</div>
+						<div class="text pull-left">
+							<h4>新用户注册有礼</h4>
+							<p>新用户注册免费试用半月</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#1">
+						<div class="img pull-left">
+							<img src="images/quick-icon3.jpg" style="width:70%;top:3px;"/>
+						</div>
+						<div class="text pull-left">
+							<h4>新用户注册有礼</h4>
+							<p>新用户注册免费试用半月</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#1">
+						<div class="img pull-left">
+							<img src="images/quick-icon4.jpg"/>
+						</div>
+						<div class="text pull-left">
+							<h4>新用户注册有礼</h4>
+							<p>新用户注册免费试用半月</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div> <!--quick-action-->
+	<div class="products">
+		<div class="container">
+			<h2 class="text-center">安全、稳定、可信赖的大数据产品</h2>
+			<p class="text-center">您所需要的一切数据产品，达观数据均能以业界领先水平为您提供</p>
+			<div class="product hidden-xs">
+				<div class="product-item active">
+					<img src="images/pro-icon2.jpg"/>
+					<h3>文本语义理解</h3>
+					<p>针对自然语言处理的不同层次问题提供完善的解决方案</p>
+					<hr />
+					<ul>
+						<li>
+							<span>垃圾评论</span>
+							<a href="#0">了解更多</a>
+						</li>
+						<li>
+							<span>黄反识别</span>
+							<a href="#0">了解更多</a>
+						</li>
+						<li>
+							<span>情感分析</span>
+							<a href="#0">了解更多</a>
+						</li>
+						<li>
+							<span>标签提取</span>
+							<a href="#0">了解更多</a>
+						</li>
+						<li>
+							<span>文章分类</span>
+							<a href="#0">了解更多</a>
+						</li>
+					</ul>
+				</div> <!--item1-->
+				<div class="product-item">
+					<img src="images/pro-icon-phone1.png"/>
+					<h3>智能推荐引擎</h3>
+					<p>针对自然语言处理的不同层次问题提供完善的解决方案</p>
+					<hr />
+					<ul>
+						<li>
+							<span>个性化推荐</span>
+							<a href="#0" style="margin-left:104px;">了解更多</a>
+						</li>
+						<li>
+							<span>相关推荐</span>
+							<a href="#0">了解更多</a>
+						</li>
+						<li>
+							<span>热门推荐</span>
+							<a href="#0">了解更多</a>
+						</li>
+					</ul>
+				</div> <!--item2-->
+				<div class="product-item">
+					<img src="images/pro-icon-phone5.png"/>
+					<h3>垂直搜索引擎</h3>
+					<p>针对自然语言处理的不同层次问题提供完善的解决方案</p>
+					<hr />
+					<ul>
+						<li>
+							<span>搜索筛选</span>
+							<a href="#0">了解更多</a>
+						</li>
+						<li>
+							<span>意图识别</span>
+							<a href="#0">了解更多</a>
+						</li>
+						<li>
+							<span>内容理解</span>
+							<a href="#0">了解更多</a>
+						</li>
+						<li>
+							<span>搜索联想</span>
+							<a href="#0">了解更多</a>
+						</li>
+					</ul>
+				</div> <!--item3-->
+				<div class="product-item">
+					<img src="images/pro-icon-phone4.png"/>
+					<h3>数据采集挖掘</h3>
+					<p>针对自然语言处理的不同层次问题提供完善的解决方案</p>
+					<hr />
+					<ul>
+						<li>
+							<span>数据抓取</span>
+							<a href="#0">了解更多</a>
+						</li>
+						<li>
+							<span>数据统计</span>
+							<a href="#0">了解更多</a>
+						</li>
+						<li>
+							<span>数据预测</span>
+							<a href="#0">了解更多</a>
+						</li>
+					</ul>
+				</div> <!--item4-->
+				<div class="product-item">
+					<img src="images/pro-icon-5.png"/>
+					<h3>用户画像</h3>
+					<p>针对自然语言处理的不同层次问题提供完善的解决方案</p>
+					<hr />
+					<ul>
+						<li>
+							<span>用户统计</span>
+							<a href="#0">了解更多</a>
+						</li>
+						<li>
+							<span>精准运营</span>
+							<a href="#0">了解更多</a>
+						</li>
+					</ul>
+				</div> <!--item5-->
+			</div> <!--product-->
+			<div class="small-show visible-xs-block">
+				<ul class="list-unstyled">
+					<a href="#0">
+						<li>
+							<img src="images/pro-icon2.jpg" alt="" />文本语义理解
+						</li>
+					</a>
+					<a href="#0">
+						<li>
+							<img src="images/pro-icon-phone1.png" alt="" />智能推荐引擎
+						</li>
+					</a>
+					<a href="#0">
+						<li>
+							<img src="images/pro-icon-phone5.png" alt="" />垂直所搜引擎
+						</li>
+					</a>
+					<a href="#0">
+						<li>
+							<img src="images/pro-icon-phone4.png" alt="" />数据采集挖掘
+						</li>
+					</a>
+					<a href="#0">
+						<li>
+							<img src="images/pro-icon-5.png" alt="" />用户画像
+						</li>
+					</a>
+				</ul>				
+			</div> <!--samll-show-->
+		</div> <!--container-->
+	</div> <!--products-->
+	<div class="solution">
+		<div class="container">
+			<div class="hidden-xs">
+				<div class="wrapper">
+					<ul class="list-unstyled">
+						<li>
+							<div>
+								<img src="images/case-icon6.png"/>
+								<h4>视频行业解决方案</h4>
+								<div class="hover-show">
+									<p>视频行业竞争激烈，短视频异军突起。达观针对网站用户行为精准构建用户画像，实时个性化推荐提高用户视频点击，并精准统计数据指导企业运营。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="images/case-icon5.png"/>
+								<h4>科技行业解决方案</h4>
+								<div class="hover-show">
+									<p>科技行业有大量的文档资料、邮件、材料等，达观机器学习助力企业对信息资料快速理解并提取关键信息，达观搜索帮助员工从海量邮件中高效到达目标内容。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="images/case-icon4.png" style="width:70px;"/>
+								<h4>金融行业解决方案</h4>
+								<div class="hover-show">
+									<p>金融企业充斥着海量新闻动态、客户咨询评论信息及行为数据，达观数据通过实时技术分析，深度挖掘信息价值，实现用户精准营销。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="images/case-icon3.png"/>
+								<h4>直播行业解决方案</h4>
+								<div class="hover-show">
+									<p>达观为风口浪尖的直播行业提供智能文本审核，实时处理不良弹幕信息，并针对直播各个应用场景，全方位适时推荐直播内容，增加平台用户付费转化。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="images/case-icon2.png"/>
+								<h4>媒体行业解决方案</h4>
+								<div class="hover-show">
+									<p>智能分发的时代已经到来，精准传播至关重要。达观个性化新闻推荐，有效提升用户粘度和用户点击率，同时避免时效新闻滞后推送的问题。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="images/case-icon1.png"/>
+								<h4>电商行业解决方案</h4>
+								<div class="hover-show">
+									<p>达观为每位电商用户行为精准建模识别其购买偏好，在此基础上向其个性化推荐商品，从而提高命中用户需求的概率，增加网站交易转化。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<a href="javascript:" class="fa fa-angle-left fa-3x"></a>
+					<a href="javascript:" class="fa fa-angle-right fa-3x"></a>
+				</div>
+			</div> <!--hidden-xs-->	
+			<div class="visible-xs-block">
+				<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide slide1">
+				        	<div>
+								<h4>电商行业解决方案</h4>
+								<div>
+									<p>达观为每位电商用户行为精准建模识别其购买偏好，在此基础上向其个性化推荐商品，从而提高命中用户需求的概率，增加网站交易转化。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+				        </div>
+				        <div class="swiper-slide slide2">
+				        	<div>
+								<h4>媒体行业解决方案</h4>
+								<div class="hover-show">
+									<p>智能分发的时代已经到来，精准传播至关重要。达观个性化新闻推荐，有效提升用户粘度和用户点击率，同时避免时效新闻滞后推送的问题。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+				        </div>
+				        <div class="swiper-slide slide3">
+				        	<div>
+								<h4>直播行业解决方案</h4>
+								<div class="hover-show">
+									<p>达观为风口浪尖的直播行业提供智能文本审核，实时处理不良弹幕信息，并针对直播各个应用场景，全方位适时推荐直播内容，增加平台用户付费转化。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+				        </div>
+				        <div class="swiper-slide slide4">
+				        	<div>
+								<h4>金融行业解决方案</h4>
+								<div class="hover-show">
+									<p>金融企业充斥着海量新闻动态、客户咨询评论信息及行为数据，达观数据通过实时技术分析，深度挖掘信息价值，实现用户精准营销。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+				        </div>
+				        <div class="swiper-slide slide5">
+				        	<div>
+								<h4>科技行业解决方案</h4>
+								<div class="hover-show">
+									<p>科技行业有大量的文档资料、邮件、材料等，达观机器学习助力企业对信息资料快速理解并提取关键信息，达观搜索帮助员工从海量邮件中高效到达目标内容。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+				        </div>
+				        <div class="swiper-slide slide6">
+				        	<div>
+								<h4>视频行业解决方案</h4>
+								<div class="hover-show">
+									<p>视频行业竞争激烈，短视频异军突起。达观针对网站用户行为精准构建用户画像，实时个性化推荐提高用户视频点击，并精准统计数据指导企业运营。</p>
+									<a href="#1">免费试用</a>
+								</div>
+							</div>
+				        </div>
+				    </div>
+				    <!-- 如果需要分页器 -->
+				    <div class="swiper-pagination" style="bottom:20px;"></div>				    
+				</div>
+			</div>
+		</div> <!--container-->
+	</div> <!--solution-->
+	<div class="news hidden-xs">
+		<div class="container">
+			<h3 class="text-center">为你提供最新行业及技术资讯</h3>
+			<p class="text-center">实用的技术干货，丰富的公司动态，致力于推动大数据技术在各领域的应用发展</p>
+			<div class="row">
+				<div class="col-sm-4">
+					<div>
+						<img src="images/news-img1.jpg" alt="news1" />
+						<span>业界见闻</span>
+					</div>
+					<p><a href="#0">【最新】达观数据：为畅读书城提供推荐技术，成功助力畅读用户下载量过亿</a></p>
+					<p><a href="#0">【最新】个性化推荐如何助力媒体类产品杀出重围？</a></p>
+				</div>
+				<div class="col-sm-4">
+					<div>
+						<img src="images/news-img2.jpg" alt="news2" />
+						<span>技术分享</span>
+					</div>
+					<p><a href="#0">【最新】达观数据：文本大数据的机器学习自动分类方法</a></p>
+					<p><a href="#0">【最新】达观数据文辉：Hadoop和Hive使用经验</a></p>
+				</div>
+				<div class="col-sm-4">
+					<div>
+						<img src="images/news-img3.jpg" alt="news3" />
+						<span>新闻动态</span>
+					</div>
+					<p><a href="#0">【最新】达观数据入选“未来独角兽TOP30” 人工智能语义理解技术创造价值</a></p>
+					<p><a href="#0">【最新】达观数据获得“创青春”上海青年创新创业大赛季军</a></p>
+				</div>
+			</div> <!--row-->
+		</div> <!--container-->
+	</div> <!--news-->
+	<div class="touzi hidden-xs">
+		<div class="container">
+			<h3>投资机构</h3>
+			<p>知名投资机构助力达观快速发展</p>
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-2">
+					<img src="images/about-06.jpg" alt="" />
+				</div>
+				<div class="col-sm-2">
+					<img src="images/about-07.png" alt="" />
+				</div>
+				<div class="col-sm-2">
+					<img src="images/about-08.png" alt="" />
+				</div>
+				<div class="col-sm-2">
+					<img src="images/about-09.png" alt="" />
+				</div>
+				<div class="col-sm-2">
+					<img src="images/about-10.png" alt="" />
+				</div>
+				<div class="col-sm-1"></div>
+			</div> <!--row-->
+		</div> <!--container-->
+	</div> <!--touzi-->
+	<div class="point hidden-xs">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-2">
+					<h4>日活增加</h4>
+					<h3>30%</h3>
+				</div>
+				<div class="col-sm-2">
+					<h4>搜索效果提升</h4>
+					<h3>2倍</h3>
+				</div>
+				<div class="col-sm-2">
+					<h4>点击率提升</h4>
+					<h3>300%</h3>
+				</div>
+				<div class="col-sm-2">
+					<h4>客户收入提升</h4>
+					<h3>27%</h3>
+				</div>
+				<div class="col-sm-2">
+					<h4>用户停留时长增加</h4>
+					<h3>50%</h3>
+				</div>
+			</div> <!--row-->
+		</div> <!--container-->
+	</div> <!--point-->
+	<div class="case">
+		<div class="container">
+			<h3>合作伙伴&典型客户</h3>
+			<div class="row">
+				<div class="col-sm-2 col-xs-4"><img src="images/logo1.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo2.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo3.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo4.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo5.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo6.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo7.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo8.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo9.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo10.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo11.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo12.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo13.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo14.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo15.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo16.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo17.jpg" alt="logo" /></div>
+				<div class="col-sm-2 col-xs-4"><img src="images/logo18.jpg" alt="logo" /></div>
+			</div>
+		</div>
+	</div> <!--case-->
+	<div class="line">
+		<h3>现在注册，即可申请免费试用</h3>
+		<a href="#0">申请试用</a>
+	</div>
+	<div class="bottom">
+		<!--大屏幕显示footer-->
+		<div class="hidden-sm hidden-xs">
+			<div class="container">
+				<div class="row footer-1">
+					<div class="col-md-3">
+						<img src="images/footer-word1.jpg"/>
+						<span>详尽的数据报表</span>
+					</div>
+					<div class="col-md-3">
+						<img src="images/footer-word2.jpg"/>
+						<span>7×24小时售后支持</span>
+					</div>
+					<div class="col-md-3">
+						<img src="images/footer-word3.jpg"/>
+						<span>定制化大数据解决方案</span>
+					</div>
+					<div class="col-md-3">
+						<img src="images/footer-word4.jpg"/>
+						<span>毫秒级数据反馈</span>
+					</div>
+				</div>
+			</div> <!--footer-1-->
+			<hr />
+			<div class="container">
+				<div class="row footer-2">
+					<div class="col-sm-2">
+						<h4>产品</h4>
+						<ul>
+						    <li><a href="#1">文本语义理解</a></li>
+						    <li><a href="#1">智能推荐引擎</a></li>
+						    <li><a href="#1">垂直搜索引擎</a></li>
+						    <li><a href="#1">数据采集挖掘</a></li>
+						    <li><a href="#1">用户画像</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-2">
+						<h4>解决方案</h4>
+						<ul>
+						    <li><a href="#1">电商大数据服务</a></li>
+						    <li><a href="#1">媒体大数据服务</a></li>
+						    <li><a href="#1">微信大数据服务</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-2">
+						<h4>常见问题</h4>
+						<ul>
+						    <li><a href="#1">数据上报常见问题</a></li>
+						    <li><a href="#1">大数据平台功能介绍</a></li>
+						    <li><a href="#1">文本挖掘相关问题</a></li>
+						    <li><a href="#2">数据抓取相关问题</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-2">
+						<h4>便捷入口</h4>
+						<ul>
+						    <li><a href="#1">公众号大师平台</a></li>
+						    <li><a href="#1">大数据平台</a></li>
+						    <li><a href="#1">公众号排行入口</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-4">
+						<h4>联系我们</h4>
+						<ul>
+						    <li>电话：400-175-9889</li>
+						    <li>官方微信号：DataGrand_</li>
+						    <li>邮箱：contact@datagrand.com</li>
+						    <li>地址：上海市浦东新区亮秀路112号Y1座</li>
+						    <li><img src="images/qrcode.png" alt="二维码" /></li>
+						</ul>	
+					</div>
+				</div>
+			</div> <!--footer-2-->
+			<hr />
+		</div> <!--hidden-->
+		<!--小屏幕显示footer-->
+		<div class="visible-sm-block visible-xs-block">
+			<ul>
+			    <li>电话：400-175-9889</li>
+			    <li>官方微信号：DataGrand_</li>
+			    <li>邮箱：contact@datagrand.com</li>
+			    <li>地址：上海市浦东新区亮秀路112号Y1座</li>
+			    <li><img src="images/qrcode.png" alt="二维码" /></li>
+			</ul>
+			<hr />
+			<a href="#2">达观数据大师app下载</a>
+			<hr />
+		</div> <!--hidden-->
+		<div class="footer-3 text-center">
+			Copyright DataGrand Tech Inc. All Rights Reserved. 沪ICP备15028292-1号
+		</div>
+	</div>
+	<!--固定附加框-->
+	<div class="fixedBox hidden-sm hidden-xs">
+		<ul>
+			<a href="#2"><li><i class="fa fa-comments fa-2x"></i><p>在线咨询</p></li></a>
+			<a class="phone" href="#2"><li><i class="fa fa-phone fa-2x"></i><p>电话咨询</p></li></a>
+			<span>400-175-9889 <i class="glyphicon glyphicon-play"></i></span>
+			<a href="#2"><li style="border:none;"><i class="fa fa-pencil-square-o fa-2x"></i><p>免费试用</p></li></a>
+		</ul>
+	</div>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/bootstrap-3.3.7.min.js"></script>
+<script src="js/swiper-3.4.2.jquery.min.js"></script>
+<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.product-item').mouseenter(function(){
+			$(this).addClass('active').siblings().removeClass('active');
+		});
+		
+		var $ul = $('.wrapper ul');
+		var $wrapper = $('.wrapper');
+		$('.wrapper .fa-angle-left').click(function(){
+			var x = $wrapper.offset().left;
+			var y = $ul.offset().left;
+			if((y-x) <= -590){
+				$ul.css({'left':0});
+			}else{
+				$ul.css({'left':(y-x-295)+'px'});
+			}
+		})
+		$('.wrapper .fa-angle-right').click(function(){
+			var x = $wrapper.offset().left;
+			var y = $ul.offset().left;
+			if((y-x) >= 0){
+				$ul.css({'left':'-590px'});
+			}else{
+				$ul.css({'left':(y-x+295)+'px'});
+			}
+		});
+		
+		var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'horizontal', //水平滑动
+		    loop: true, //无限循环
+		    pagination: '.swiper-pagination',//分页器
+		  })
+
+	})
+</script>
+</body>
+</html>

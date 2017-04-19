@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>达观数据-数据采集挖掘</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-3.3.7.min.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome-4.2.0.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/textmining.css"/>
+    <!-- IE<=9 H5+CSS3补丁  -->
+    <!--[if lte IE 9]>                         
+	   <script src="js/html5shiv.min.js"></script>
+	   <script src="js/respond.min.js"></script>                      
+	<![endif]-->
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="">
+	<link rel="icon" href="">
+	<style type="text/css">
+		.tm-banner{
+			background: #15173E;
+			overflow: hidden;
+			}
+		.tm-banner img{
+			width: 40%;
+			position: absolute;
+			top:0;
+			left:45%;
+		}
+		.tm-banner .text-box{
+			margin-top:190px;
+		}
+		.tm-product .thumbnail img{
+			height:50px;
+		}
+		.duibi{
+			text-align: center;
+			height:535px;
+			background: url(images/search-08.jpg) center center no-repeat;
+			background-size: cover;
+			color:white;
+			overflow: hidden;
+		}
+		.duibi h2{
+			margin-top:60px;
+			margin-bottom: 40px;
+		}
+		.duibi img{
+			height:322px;
+		}
+		@media screen and (max-width: 768px) {
+			.tm-banner2 .text-box{
+				margin-top:0 !important;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="top">
+		<div class="container">
+			<nav class="navbar"> <!--.navbar-fixed-top固定在顶部，且需body { padding-top: 70px; }-->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="fa fa-bars fa-2x"></span>
+			      </button>
+			      <a class="navbar-brand" href="index.html">
+			      	<img src="images/dg-logo-2x.png"/>
+			      </a>
+			    </div>
+			
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="index.html">官网首页<span class="sr-only">(current)</span></a></li>
+			        <li class="dropdown hidden-xs">
+			        	<a href="#1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">产品服务</a>
+				        <ul class="dropdown-menu text-center" aria-labelledby="dLabel">
+				        	<i class="fa fa-caret-up fa-3x"></i>
+						    <li><a href="textmining.html">文本语义理解</a></li>
+						    <li><a href="recommend.html">智能推荐引擎</a></li>
+						    <li><a href="searchengines.html">垂直搜索引擎</a></li>
+						    <li><a href="datamining.html">数据采集挖掘</a></li>
+						    <li><a href="portrayal.html">用户画像</a></li>
+						</ul>			        	
+			        </li>
+			        <li class="dropdown hidden-xs">
+			        	<a href="#1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">解决方案</a>
+				        <ul class="dropdown-menu text-center" aria-labelledby="dLabel">
+				        	<i class="fa fa-caret-up fa-3x"></i>
+						    <li><a href="elebusinesssln.html">电商解决方案</a></li>
+						    <li><a href="mediasln.html">媒体解决方案</a></li>
+						    <li><a href="technology-solutions.html">科技解决方案</a></li>
+						    <li><a href="financial-solutions.html">金融解决方案</a></li>
+						</ul>			        	
+			        </li>
+			        <!--折叠菜单 xs可见-->
+					<li class="panel-group visible-xs-block" id="accordion" role="tablist" aria-multiselectable="true">
+						  <div class="panel">
+								<div class="panel-heading" role="tab" id="headingOne">								 
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								 	<h4 class="panel-title">
+										 产品服务<i class="glyphicon glyphicon-chevron-right pull-right"></i>
+								  	</h4>
+								</a>
+								
+								</div>
+								<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+								  <div class="panel-body">
+								  	<ul>
+									    <li><a href="textmining.html">文本语义理解</a></li>
+									    <li><a href="recommend.html">智能推荐引擎</a></li>
+									    <li><a href="searchengines.html">垂直搜索引擎</a></li>
+									    <li><a href="datamining.html">数据采集挖掘</a></li>
+									    <li><a href="portrayal.html">用户画像</a></li>
+									</ul>	
+								  </div>
+								</div>
+						  </div>
+						  <div class="panel">
+								<div class="panel-heading" role="tab" id="headingTwo">								 
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+								 	<h4 class="panel-title">
+										 解决方案<i class="glyphicon glyphicon-chevron-right pull-right"></i>
+								  	</h4>
+								</a>								 
+								</div>
+								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								  <div class="panel-body">
+								  	<ul>
+									    <li><a href="elebusinesssln.html">电商解决方案</a></li>
+									    <li><a href="mediasln.html">媒体解决方案</a></li>
+									    <li><a href="technology-solutions.html">科技解决方案</a></li>
+									    <li><a href="financial-solutions.html">金融解决方案</a></li>
+									</ul>	
+								  </div>
+								</div>
+						  </div>
+					</li>			        
+			        <li><a href="blog.html">企业资讯</a></li>
+			        <li class="dropdown hidden-xs">
+			        	<a href="about.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">关于达观</a>
+				        <ul class="dropdown-menu text-center" aria-labelledby="dLabel">
+				        	<i class="fa fa-caret-up fa-3x"></i>
+						    <li><a href="about.html#description">公司简介</a></li>
+						    <li><a href="about.html#honor">达观事迹</a></li>
+						    <li><a href="about.html#join">加入我们</a></li>
+						</ul>			        	
+			        </li>
+			        <li><a href="about.html" class="visible-xs-block">关于达观</a></li>
+			        <li><a href="doc.html">技术文档</a></li>
+			      </ul>
+			      <ul class="nav navbar-nav navbar-right hidden-xs">
+			      	<li >
+			      		<a href="login.html" class="login-btn">登录</a>
+			      	</li>
+			      	<li >
+			      		<a href="experience.html">申请试用</a>
+			      	</li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			</nav>			
+		</div>	<!--container-->
+	</div> <!--top-->
+	<div class="tm-banner">
+		<div class="container" style="position: relative;">
+			<div class="text-box" style="position: relative;z-index: 1;">
+				<h3>数据采集挖掘</h3>
+				<p>利用最先进的数据挖掘技术，为企业捕捉全网信息，基于海量数据和</p>
+				<p>精准算法，就网站流量走势、用户行为、产品销量等进行准确预测</p>	
+			</div>
+			<img src="images/dm-01.jpg" alt="" class="hidden-sm hidden-xs"/>
+		</div>
+	</div> <!--banner-->
+	<div class="tm-product">
+		<div class="container text-center">
+			<h2>产品功能</h2>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="thumbnail">
+				      <img src="images/dm-02.png" alt="...">
+				      <div class="caption">
+				        <h4>数据抓取</h4>
+				        <p>实现微信公众号数据的定向抓取，包括公众号文章、阅读数、点赞数，并支持对文章进行分组、筛选、排序等多样操作管理</p>
+				      </div>
+				    </div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+				      <img src="images/dm-03.png" alt="...">
+				      <div class="caption">
+				        <h4>数据统计</h4>
+				        <p>对不同终端各类数据进行统计分析，以形式多样的数据统计报表在“达观大数据平台”展现流量、产品、用户和渠道信息</p>
+				      </div>
+				    </div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+				      <img src="images/dm-04.png" alt="...">
+				      <div class="caption">
+				        <h4>数据预测</h4>
+				        <p>基于海量数据和精准算法，达观可根据网站的流量走势、用户行为、产品销量等数据进行准确预测</p>
+				      </div>
+				    </div>
+				</div>
+			</div>
+		</div> <!--container-->
+	</div> <!--tm-product-->
+	<div class="tm-banner2" style="background: none; color:black;padding:0;height: auto;">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="text-box">
+						<h3>定向抓取微信公众号各种数据</h3>
+						<p>根据企业需要，抓取特定类别公众号的相关数据，包括点赞数、阅读数、粉丝数和发布时间等</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<img src="images/dm-05.jpg" style="width:90%;"/>
+				</div>
+			</div>			
+		</div>
+	</div> <!--banner2-->	
+	<div class="tm-banner2" style="background: #F6F6F6; color:black;">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="images/dm-06.jpg" style="width:90%;"/>
+				</div>
+				<div class="col-sm-6">
+					<div class="text-box">
+						<h3>支持企业在大数据平台按需配置</h3>
+						<p>企业可在达观大数据平台对所抓取的公众号进行自定义标签添加，也可通过输入文章地址人工添加公众号，实现机器与人工的互补</p>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div> <!--banner2-->	
+	<div class="tm-banner2" style="background: none; color:black;height: 445px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="text-box">
+						<h3>实时统计分析不同终端各类数据</h3>
+						<p>针对移动端和PC端的不同类型的海量数据，实现数据可视化分析统计，方便企业使用</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<img src="images/dm-07.jpg" style="width:90%;"/>
+				</div>
+			</div>			
+		</div>
+	</div> <!--banner2-->	
+	<div class="tm-frame" style="background: #171D34;color:white;padding-top:0;padding-bottom:80px;">
+		<div class="container text-center"  style="position: relative;top:70px;">
+			<h3>支持PC端与移动端双平台数据实时查看</h3>
+			<p>企业可通过PC端查看所抓取数据的情况，亦可通过移动端随时随地了解数据详情，实现</p>
+			<p>双平台无缝衔接支持企业实时查看</p>
+			<p><img src="images/dm-08.png" style="width:80%;"/></p>
+		</div>
+	</div> <!--tm-frame-->
+	<div class="tm-tech">
+		<div class="container">
+			<h3>技术架构</h3>
+			<img src="images/dm-10.png" alt="" />
+		</div>
+	</div> <!--tm-tech-->
+	<div class="site text-center" style="background: url(images/dm-09.jpg) center center no-repeat;background-size: cover;">
+		<div>
+			<h3>某科技媒体网站</h3>
+			<p>某原创漫画制作网站通过达观数据采集挖掘技术，运营效果提升60%，整体数据</p>
+			<p>趋势在其大数据平台清楚可视</p>
+			<a href="#0">申请试用</a>
+		</div>
+	</div> <!--site-->
+	<div class="bottom">
+		<!--大屏幕显示footer-->
+		<div class="hidden-sm hidden-xs">
+			<div class="container">
+				<div class="row footer-1">
+					<div class="col-md-3">
+						<img src="images/footer-word1.jpg"/>
+						<span>详尽的数据报表</span>
+					</div>
+					<div class="col-md-3">
+						<img src="images/footer-word2.jpg"/>
+						<span>7×24小时售后支持</span>
+					</div>
+					<div class="col-md-3">
+						<img src="images/footer-word3.jpg"/>
+						<span>定制化大数据解决方案</span>
+					</div>
+					<div class="col-md-3">
+						<img src="images/footer-word4.jpg"/>
+						<span>毫秒级数据反馈</span>
+					</div>
+				</div>
+			</div> <!--footer-1-->
+			<hr />
+			<div class="container">
+				<div class="row footer-2">
+					<div class="col-sm-2">
+						<h4>产品</h4>
+						<ul>
+						    <li><a href="#1">文本语义理解</a></li>
+						    <li><a href="#1">智能推荐引擎</a></li>
+						    <li><a href="#1">垂直搜索引擎</a></li>
+						    <li><a href="#1">数据采集挖掘</a></li>
+						    <li><a href="#1">用户画像</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-2">
+						<h4>解决方案</h4>
+						<ul>
+						    <li><a href="#1">电商大数据服务</a></li>
+						    <li><a href="#1">媒体大数据服务</a></li>
+						    <li><a href="#1">微信大数据服务</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-2">
+						<h4>常见问题</h4>
+						<ul>
+						    <li><a href="#1">数据上报常见问题</a></li>
+						    <li><a href="#1">大数据平台功能介绍</a></li>
+						    <li><a href="#1">文本挖掘相关问题</a></li>
+						    <li><a href="#2">数据抓取相关问题</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-2">
+						<h4>便捷入口</h4>
+						<ul>
+						    <li><a href="#1">公众号大师平台</a></li>
+						    <li><a href="#1">大数据平台</a></li>
+						    <li><a href="#1">公众号排行入口</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-4">
+						<h4>联系我们</h4>
+						<ul>
+						    <li>电话：400-175-9889</li>
+						    <li>官方微信号：DataGrand_</li>
+						    <li>邮箱：contact@datagrand.com</li>
+						    <li>地址：上海市浦东新区亮秀路112号Y1座</li>
+						    <li><img src="images/qrcode.png" alt="二维码" /></li>
+						</ul>	
+					</div>
+				</div>
+			</div> <!--footer-2-->
+			<hr />
+		</div> <!--hidden-->
+		<!--小屏幕显示footer-->
+		<div class="visible-sm-block visible-xs-block">
+			<ul>
+			    <li>电话：400-175-9889</li>
+			    <li>官方微信号：DataGrand_</li>
+			    <li>邮箱：contact@datagrand.com</li>
+			    <li>地址：上海市浦东新区亮秀路112号Y1座</li>
+			    <li><img src="images/qrcode.png" alt="二维码" /></li>
+			</ul>
+			<hr />
+			<a href="#2">达观数据大师app下载</a>
+			<hr />
+		</div> <!--hidden-->
+		<div class="footer-3 text-center">
+			Copyright DataGrand Tech Inc. All Rights Reserved. 沪ICP备15028292-1号
+		</div>
+	</div>
+	<!--固定附加框-->
+	<div class="fixedBox hidden-sm hidden-xs">
+		<ul>
+			<a href="#2"><li><i class="fa fa-comments fa-2x"></i><p>在线咨询</p></li></a>
+			<a class="phone" href="#2"><li><i class="fa fa-phone fa-2x"></i><p>电话咨询</p></li></a>
+			<span>400-175-9889 <i class="glyphicon glyphicon-play"></i></span>
+			<a href="#2"><li style="border:none;"><i class="fa fa-pencil-square-o fa-2x"></i><p>免费试用</p></li></a>
+		</ul>
+	</div>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/bootstrap-3.3.7.min.js"></script>
+<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
