@@ -1,0 +1,253 @@
+.about-banner{
+	background-color: #050F33;
+	height:550px;
+	background-image: url(../images/earth.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 30%;
+	position: relative;
+	}
+.about-banner .text-box{
+	text-align: center;
+	position: absolute;
+	top:36%;
+	left:50%;
+	transform: translate(-50%);
+	color:#07E5F0;
+}
+@media screen and (max-width: 768px) {
+	.about-banner{
+		background-image: none;
+		height:300px;
+		padding:30px 0;
+	}
+	.about-banner .text-box h2{
+		font-size: 25px;
+	}
+}
+.description{
+	background-color: #FAFAFA;
+	padding:50px 0 70px 0;
+}
+.description .col-sm-6:nth-of-type(1) h2{
+	height:120px;
+	line-height: 120px;
+	display: inline-block;
+	background: url(../images/about-01.png) 20% center no-repeat;
+	background-size: 50%;
+}
+.description .col-sm-6:nth-of-type(2) h2{
+	height:120px;
+	line-height: 120px;
+	display: inline-block;
+	background: url(../images/about-02.png) 30% center no-repeat;
+	background-size: 60%;
+}
+.description .col-sm-6 p{
+	font-size:16px;
+}
+.partner h2{
+	margin-bottom: 2em;
+}
+.about-h{
+	text-align: center;
+}
+.about-h span{
+	border-bottom: 3px solid blue;
+	padding-bottom: 0.5em;
+}
+.partner{
+	padding:50px 0;
+	text-align: center;
+	background-color: #F7F7F9;
+}
+.partner .thumbnail{
+	padding:10px;
+	padding-top:40px;
+	text-align: center;
+	border:none;
+	border-radius: 0;
+}
+.partner .thumbnail>div:first-child{
+	height:60px;
+	margin-bottom: 20px;
+}
+.partner .thumbnail img{
+	width:70%;
+}
+.honor{
+	background-color: #061137;
+	color:white;
+	padding:50px 0;
+}
+.honor .container{
+	background-image: url(../images/about-16.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+@media only screen and (max-width: 768px) {
+	.honor .container{
+		background: none;
+	}
+}
+.honor h2{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.honor img{
+	width:40%;
+}
+.honor h4{
+	color:#00FFFF;
+}
+.honor .pc>div{
+	position: relative;
+	width:14em;
+	float:left;
+}
+.honor1{
+	top:6px;
+	left:-46px;
+}
+.honor2{
+	top:209px;
+	left:-121px;
+}
+.honor3{
+	top:-80px;
+	left:-182px;
+}
+.honor4{
+	top:93px;
+	left:-180px;
+}
+.honor5{
+	top:-73px;
+	left:-165px;
+}
+.honor6{
+	top:54px;
+	left:296px;
+}
+.honor7{
+	top:-248px;
+	left:281px;
+}
+.honor8{
+	top:-36px;
+	left:185px;
+}
+.honor .pc{
+	margin-top:134px;
+	padding-bottom: 360px;
+	
+}
+.competition{
+	padding:50px 0;
+}
+.competition img{
+	margin-bottom: 30px 0;
+	height:190px;
+}
+.competition .row{
+	margin-top:60px;
+}
+.competition .row p{
+	font-size: 18px;
+	margin:0;
+}
+.competition .row p span{
+	color:blue;
+}
+.patent{
+	padding:50px 0;
+	color:white;
+	background-color: #061137;
+}
+.patent img{
+	width:100%;
+}
+.patent .row{
+	margin-top:60px;
+}
+.patent ul{
+	margin-top:110px;
+}
+@media screen and (max-width:768px){
+	.patent ul{
+		margin-top:0;
+		margin-left:10px;
+	}
+}
+.environment{
+	padding:50px 0;
+}
+.environment img{
+	width:33%;
+	float:left;
+}
+.environment>div>div{
+	overflow: hidden;
+}
+.environment P{
+	margin:50px 0;
+}
+.job{
+	padding:50px 0;
+	background-color: #F6F6F6;
+}
+.job .row{
+	margin-top:50px;
+}
+.job .job-box{
+	height:390px;
+	padding:30px;
+	padding-bottom: 0;
+	background-color: white;
+	transition:all 0.3s;
+	position: relative;
+}
+.job .job-box:hover{	
+	margin-top:-10px;
+	box-shadow: 1px 1px 15px grey;
+}
+.job .job-box .head h3{
+	display: inline;
+}
+.job .job-box .head span{
+	display: inline-block;
+	background-color: blue;
+	color:white;
+	padding:5px 13px;
+	border-radius: 20px;
+	position: relative;
+	top:-5px;
+	left:-10px;
+	
+}
+.job .job-box h4{
+	font-weight: bold;
+	margin:20px 0;
+}
+.job .job-box ul li{
+	margin-top:5px;
+	list-style-image: url(../images/about-i.png);
+	list-style-position:inside ;
+}
+.job .job-box a{
+	width:90%;
+	display: inline-block;
+	border:1px solid blue;
+	color:blue;
+	padding:10px 0;
+}
+.job .job-box a:hover{
+	background-color: blue;
+	color:white;
+}
+.job .job-box p{
+	width:84%;
+	position: absolute;
+	bottom: 10px;
+}
