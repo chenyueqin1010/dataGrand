@@ -1,0 +1,56 @@
+
+.top{
+	background-color: #212231;
+}
+.login-wrapper{
+	margin-top:70px;
+	padding:80px 0;
+	background: url(../images/login-bg.0d1a6d2b.jpg) center center no-repeat;
+	background-size: cover;
+}
+.login{
+	width:400px;
+	height:410px;
+	margin:0 auto;
+	padding:0 40px;
+	background-color: rgba(255,255,255,0.6);
+	background-image: url(../images/login-earth.png);
+	background-repeat: no-repeat;
+	background-position: center 20px;
+	background-size: 80%;
+	border-top:4px solid #1976D2;
+	box-shadow: 1px 1px 10px lightgrey;
+}
+@media only screen and (max-width: 460px) {
+	.login{width:300px;}
+}
+.login-top{
+	margin-top:30px;
+}
+.login .form{
+	margin:0 auto;
+}
+.login .form input{
+	height:40px;
+	margin-top:25px;
+	display: block;
+	width:100%;
+	border:1px solid #D2D2D2;
+	padding-left:1em;
+}
+.login .form input.btn{
+	background: #1976D2;
+	color:white;
+	border:none;
+	padding:0;
+}
+.login>div:last-child{
+	margin-top:20px;
+}
+.login textarea{
+	width:100%;
+	resize: none;
+	margin-top:20px;
+	padding-left:1em;
+}
+
