@@ -1,0 +1,117 @@
+/*电商*/
+.solution-banner{
+	position: relative;
+	height: 600px;
+	background: url(../images/eb-01.jpg) center center no-repeat;
+	background-size: cover;
+}
+.solution-banner .text{
+	position:absolute;
+	top:50%;
+	transform: translateY(-50%);
+	color:white;
+}
+
+.solution-banner .text p{
+	margin:30px 0;
+}
+.solution-banner .text a{
+	margin-top:15px;
+	color:white;
+}
+.experience-btn{
+	display: inline-block;
+	padding:10px 50px;
+	border:1px solid;
+}
+.tab{
+	text-align: center;
+	overflow: hidden;
+	padding-top:30px;
+	position: relative;
+}
+.tab img{
+	width:100%;
+}
+@media screen and (min-width: 768px) {
+	.tab{
+		padding-top:0;
+		height:460px;
+		}
+	.tab .text{
+		text-align: left;
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		z-index: 1;
+		width:36%;
+	}
+	.tab.tab2 .container{
+		height:100%;
+		position: relative;
+	}
+	.tab.tab2 .text{
+		width:40%;
+		right:0;
+	}
+	.tab img{
+		width:100%;
+		position: absolute;
+		left: 83%;
+		z-index: 0;
+	}
+	.tab.tab2 img{
+		left:0;
+	}
+	.text-top .col-md-6 img{
+		width:80%;
+	}
+	
+}
+.text-top{
+	padding:50px 0;
+}
+.text-top p{
+	margin:30px 0;
+	display: inline-block;
+	width:46%;
+}
+.text-top img{
+	width:60%;
+}
+@media screen and (max-width: 768px) {
+	.solution-banner{
+		height:400px;
+	}
+	.solution-banner .text{
+		text-align: center;
+	}
+	.text-top p{
+		width:90%;
+	}
+	.text-top .col-md-6{
+		margin-top:20px;
+	}
+}
+.solution-bottom{
+	color:white;
+	background-color: #1976D2;
+	background-image: url(../images/eb-09.png);
+	background-size: cover;
+	text-align: center;
+	padding:20px 0;
+}
+.solution-bottom a{
+	color:white;
+	margin:20px 0;
+}
+/*媒体*/
+.solution-banner.media-solution{
+	background: url(../images/ms-01.jpg) center center no-repeat;
+}
+.solution-banner.keji{
+	background: url(../images/tech-banner.png) center center no-repeat;
+}
+.solution-banner.financial{
+	background: url(../images/financial-banner.png) center center no-repeat;
+}
